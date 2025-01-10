@@ -1,0 +1,2 @@
+# Training
+Daily Training Record
