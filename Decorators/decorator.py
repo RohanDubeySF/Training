@@ -5,11 +5,11 @@ import time
 
 def time_it(function):
     def wrapper_f(*args,**kwargs):
+        print("This is a decorator")
         start=time.perf_counter()
         res=function(*args,**kwargs)
         end=time.perf_counter()
         total=end-start
-        print("This is a decorator")
         print("Time taken {} seconds".format(round(total)))
     return wrapper_f
 
@@ -21,4 +21,4 @@ def sum(n):
         time.sleep(1)
     print(sum)
 
-sum(10)
+sum(5)

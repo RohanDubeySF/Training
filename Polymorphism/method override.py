@@ -1,15 +1,17 @@
 class parent():
     def __init__(self):
         pass
-    def hello(self,name):
+    def hi(self,name):
         print("Hi " + name)
 
 class child(parent):
     def __init__(self):
         pass
+    def hi(self,name):
+        print("Hello "+ name)
 
 p=parent()
-p.hello("Parent")
+p.hi("Parent")
 
 c=child()
-c.hello("Child")
+c.hi("Child")
