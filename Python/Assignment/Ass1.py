@@ -50,25 +50,7 @@ def word(n):
         i+=1
    return result 
 
-"""
-def gcd(Num1,Num2):
-   Num1=convert(Num1)
-   Num2=convert(Num2)
-   minimum=Num1 if Num1<Num2 else Num2
-   i,factor=2,1
-   if Num1<0 or Num2<0:
-      raise Exception
-   elif Num1==0 and Num2==0:
-      print(f"The GCD is {num[0]}")
-   elif Num1>0 and Num2>0:
-      while i<minimum:
-         while Num1%i==0 and Num2%i==0 :
-            Num1,Num2=Num1/i,Num2/i
-            factor*=i
-         i+=1
-      fac=word(factor)
-      print(f"The GCD is {fac}")
-"""
+
 def gcd(num1,num2):
    if num2==0:
       fac=word(num1)
