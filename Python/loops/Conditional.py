@@ -16,5 +16,5 @@ def secondmax(num):
 
 
 num=input("Enter a number:")
-l=list(map(int, num.split()))
+l=list(map(int, num.split(" ")))
 secondmax(l)

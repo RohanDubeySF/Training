@@ -42,7 +42,7 @@ def parenthesis(n):
 
 
 try:
-    N=int(input("Enter the Number: "))
+    N=int(input("Enter the Number: ")) 
     if N>8 or N==-1:
         print("Number Should be greater than -1 and less than 8")
     else:
